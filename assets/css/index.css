@@ -11,15 +11,41 @@ nav {
   justify-content: center;
   font-weight: bold;
 }
-
 h1 {
-  display: flex;
-  flex-flow: column;
+  padding-top: 1em;
+  position: relative;
+  text-align: center;
+
 
   color: white;
   background-image: url("../images/kats-hero-mobile-bg.jpg");
   background-size: auto;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
 }
+h1> img {
+  margin: auto;
+}
+h1> div {
+  position: absolute;
+}
+.find-the {
+  top: 2rem;
+  left: 2rem;
+}
+.purr {
+  top: 3rem;
+  left: 2rem;
+  font-size: 3em;
+  font-style: italic;
+}
+.costume {
+  top: 4rem;
+  right: 2 rem;
+
+}
+
+
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
