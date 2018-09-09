@@ -57,7 +57,8 @@ h1> div {
 }
 
 h2 {
-  font-size: 1.3rem;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.9rem;
   text-align: center;
   margin-top: 10%;
 }
@@ -66,9 +67,25 @@ p {
   text-align: justify;
   line-height: 2rem;
   margin: 0 2rem 2rem;
+  font-size: larger;
 }
 
+h3 {
+  color: #00897F;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.55rem;
+}
 
+.get-in {
+  display: none;
+}
+
+.background {
+  background-color: #eeeeee;
+  padding: 1rem 0;
+}
 /* On devices wider than 660px */
 @media(min-width: 660px) {
 }
