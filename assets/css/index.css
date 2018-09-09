@@ -9,39 +9,47 @@ body {
 nav {
   display: flex;
   justify-content: center;
+  font-size: 1.75rem;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-weight: bold;
+  margin-top: 1rem;
 }
 h1 {
-  padding-top: 1em;
+  padding-top: 2rem;
   position: relative;
   text-align: center;
 
 
   color: white;
   background-image: url("../images/kats-hero-mobile-bg.jpg");
-  background-size: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family: 'PT Sans Narrow', sans-serif;
   text-transform: uppercase;
 }
 h1> img {
   margin: auto;
+  position: relative;
+  z-index: 1;
+  bottom: -7px;
 }
 h1> div {
   position: absolute;
+
 }
 .find-the {
-  top: 2rem;
-  left: 2rem;
+  top: 18%;
+  left: 11%;
 }
 .purr {
-  top: 3rem;
-  left: 2rem;
-  font-size: 3em;
+  top: 22%;
+  left: 4%;
+  font-size: 2.5em;
   font-style: italic;
 }
 .costume {
-  top: 4rem;
-  right: 2 rem;
+  top: 40%;
+  right: 7%;
 
 }
 
