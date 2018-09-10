@@ -15,9 +15,8 @@ nav {
 h1 {
   padding-top: 2rem;
   position: relative;
-
-
   color: white;
+
   background-image: url("../images/kats-hero-mobile-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -59,15 +58,15 @@ h2 {
 
 p {
   text-align: justify;
-  line-height: 2rem;
+  line-height: 2.5rem;
   margin: 0 2rem 2rem;
-  font-size: larger;
+  font-size: 1.35rem;
 }
 
 h3 {
   color: #00897F;
   text-transform: uppercase;
-  font-size: 1.55rem;
+  font-size: 1.7rem;
 }
 
 .get-in {
@@ -78,15 +77,44 @@ h3 {
   background-color: #eeeeee;
   padding: 1rem 0;
 }
+
 footer {
   color: white;
 }
 
 .headingfont {
    font-family: 'PT Sans Narrow', sans-serif;
-    text-align: center;
+   text-align: center;
   }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.dracula-cat {
+  border-radius: 100%;
+  padding: 3rem;
+  width: 100%;
+  height: 100%;
+}
+
+.boldcaps {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.address {
+  color: #f26522;
+  font-weight: bold;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
 /* On devices wider than 660px */
 @media(min-width: 660px) {
 }
