@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-  font-size: 1.15rem;
+  font-size: 1.6rem;
   font-weight: bold;
   margin-top: 1rem;
 }
@@ -79,7 +79,14 @@ h3 {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
+  background-color: #00897F;
+  height: 7rem;
+  font-size: 1.4rem;
+
 }
 
 .headingfont {
@@ -110,10 +117,12 @@ footer {
   display: inline-flex;
   justify-content: flex-end;
 }
-
 .map {
+  display: flex;
+  justify-content: center;
+  height: 50%;
   width: 100%;
-  height: 100%;
+
 }
 /* On devices wider than 660px */
 @media(min-width: 660px) {
