@@ -12,8 +12,9 @@ nav {
   margin-top: 1rem;
 }
 
-h1 {
+.batman {
   padding-top: 2rem;
+  margin-top: 1rem;
   position: relative;
   color: white;
 
@@ -23,32 +24,39 @@ h1 {
   text-transform: uppercase;
 }
 
-h1> img {
+.cathero {
   margin: auto;
   position: relative;
   z-index: 1;
-  bottom: -7px;
+  bottom: -5px;
 }
 
-h1> div {
+.absolute {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 25%;
+  width: 100%;
+  line-height: 1;
 }
+
 
 .find-the {
-  top: 18%;
-  left: 11%;
+  display: flex;
+  align-content: flex-start;
 }
 
 .purr {
-  top: 22%;
-  left: 4%;
-  font-size: 2.5em;
+  font-size: 3em;
   font-style: italic;
+  font-weight: bold;
 }
 
 .costume {
-  top: 40%;
-  right: 7%;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+
 }
 
 h2 {
@@ -86,7 +94,6 @@ footer {
   background-color: #00897F;
   height: 7rem;
   font-size: 1.4rem;
-
 }
 
 .headingfont {
@@ -117,17 +124,39 @@ footer {
   display: inline-flex;
   justify-content: flex-end;
 }
+
 .map {
-  display: flex;
-  justify-content: center;
-  height: 50%;
-  width: 100%;
+display: flex;
+justify-content: center;
+overflow-x: hidden;
+}
+
+
+
+
+/* On devices wider than 660px */
+@media(min-width: 420px) {
+  .get-in {
+    display: flex;
+    justify-content: center;}
 
 }
-/* On devices wider than 660px */
-@media(min-width: 660px) {
-}
+
+
+
+
+
 
 /* On devices wider than 940px */
 @media(min-width: 940px) {
+  .hours {
+    background-color: white;}
+
+  .contact {
+    background-color: white;}
+
+  .background {
+    display: flex;
+    justify-content: center;
+  }
 }
