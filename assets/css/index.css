@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-  font-size: 1.6rem;
+  font-size: 3.8vw;
   font-weight: bold;
   margin-top: 1rem;
 }
@@ -50,7 +50,7 @@ nav {
 }
 
 .purr {
-  font-size: 3em;
+  font-size: 7vw;
   font-style: italic;
   font-weight: bold;
 }
@@ -63,7 +63,7 @@ nav {
 }
 
 h2 {
-  font-size: 1.9rem;
+  font-size: 5vw;
   margin-top: 5%;
 }
 
@@ -71,27 +71,34 @@ p {
   text-align: justify;
   line-height: 2.5rem;
   margin: 0 2rem 2rem;
-  font-size: 1.35rem;
+  font-size: 3.0vw;
 }
 
 h3 {
   color: #00897F;
   text-transform: uppercase;
-  font-size: 1.7rem;
+  font-size: 4.2vw;
 }
 
 .get-in {
   display: none;
 }
 
-.kat {
+.background {
   background-color: #eeeeee;
   padding: 1rem 0;
 }
 
-.mavis {
+.background2 {
   background-color: #eeeeee;
   padding: 1rem 0;
+}
+
+.hours {
+  background-color: #eeeeee;
+}
+.contact {
+  background-color: #eeeeee;
 }
 
 footer {
@@ -147,15 +154,17 @@ justify-content: center;
 overflow-x: hidden;
 }
 
+.about {
+  display: none;
+}
+
+
 
 
 
 /* On devices wider than 660px */
 @media(min-width: 420px) {
-  .get-in {
-    display: flex;
-    justify-content: center;
-}
+
 
 }
 
@@ -180,53 +189,73 @@ overflow-x: hidden;
 
 /* On devices wider than 940px */
 @media(min-width: 940px) {
-  .hours {
-    background-color: white;}
 
-  .contact {
-    background-color: white;}
+nav.headingfont {
+  display: flex;
+}
 
-  .background {
+.about {
+  display: block;
+  float: right;
+}
+
+.shop {
+  float: left;
+
+}
+.get-in {
+    display: flex;
+    justify-content: center;
+}
+.background {
   display: flex;
   justify-content: center;
+  background-color: white;
+  }
+
+.background2 {
+    display: flex;
+    justify-content: center;
   }
 
 .tan {
   background-color: #eeeeee;
   padding: 3rem 6rem 4rem 6rem;
-}
-
-
-  .serious {
+  }
+.serious {
     margin: 2rem 6rem;
 
   }
-  .kat {
+.kat {
+    background-color: #eeeeee;
     margin-right: 1.5rem;
     width: 50%;
  }
 
-  .mavis {
+.mavis {
+    background-color: #eeeeee;
     margin-left: 1.5rem;
     width: 50%;
   }
 
-  .ballcat {
+.ballcat {
     display: flex;
     border-radius: 100%;
     padding: 3rem;
     width: 75%;
     height: 75%;
-}
+  }
+
 .cathero {
   display: none;
-}
-.cathero2 {
+  }
+  .cathero2 {
   display: flex;
   margin: auto;
   position: relative;
   z-index: 1;
 }
+
 .batman {
   background-image: url("../images/kats-hero-desktop-bg.jpg")
 }
@@ -240,15 +269,20 @@ overflow-x: hidden;
   font-size: 2rem;
 }
 .contact {
+  background-color: white;
   width: 50%;
   margin-left: 1.5rem;
 }
-
-}
 .hours {
+  background-color: white;
   width: 50%;
   margin-right: 1.5rem;
 }
 h2 {
-  margin-top: 0;}
+  margin-top: 0;
+  font-size: 2.5rem;}
+
+h3{
+  font-size: 2.2rem;
+}
 }
